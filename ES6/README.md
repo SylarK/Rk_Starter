@@ -1,28 +1,42 @@
-###ES6+
+### ES6+
 
-*Babel  -> Compilador para a nova geraÁ„o do javascript.
-*Webpack
-*Classes
-*Arrow Functions -> FunÁıes anÙnimas dentro do cÛdigo.
-*DesestruturaÁ„o
-*Rest/spread
-*Import/export
-*Async/await
+* Babel  -> Compilador para a nova geraÔøΩÔøΩo do javascript.
+* Webpack
+* Classes
+* Arrow Functions -> FunÔøΩÔøΩes anÔøΩnimas dentro do cÔøΩdigo.
+* DesestruturaÔøΩÔøΩo
+* Rest/spread
+* Import/export
+* Async/await
 
 
-####YARN
+#### YARN
 - yarn init
-> Armazenamento das informaÁıes de depÍndencia de minha aplicaÁ„o
+> Armazenamento das informaÔøΩÔøΩes de depÔøΩndencia de minha aplicaÔøΩÔøΩo
 - yarn add @babel/cli
-> Linking da depÍndencia babel. Possibilita trabalhar com a interface da linha de comando babel
+> Linking da depÔøΩndencia babel. Possibilita trabalhar com a interface da linha de comando babel
 - yarn add @babel/preset-env
-> preset-env -> Converte para o que o navegador n„o entende ainda
+> preset-env -> Converte para o que o navegador nÔøΩo entende ainda
 - yarn add @babel/core
+- yarn add @babel/plugin-proposal-object-rest-spread
+> Para utilizaÔøΩÔøΩo de operadores rest/spread
+> yarn add babel-loader -D
+- yarn add webpack-dev-server -D
+- yarn add webpack webpack-cli -D
+- yarn add @babel/polyfill -D
+- yarn add @babel/plugin-transform-async-to-generator -D
+> Async - await
+- yarn add axios
 
 
-####BABEL
+#### BABEL
 - .babelrc
-> CriaÁ„o de arquivo para configuraÁ„o do babel
+> CriaÔøΩÔøΩo de arquivo para configuraÔøΩÔøΩo do babel
 
 
-** A criaÁ„o de scripts dentro do package.json permitem a execuÁ„o de funcionalidade atravÈs do terminal **
+** A criaÔøΩÔøΩo de scripts dentro do package.json permitem a execuÔøΩÔøΩo de funcionalidade atravÔøΩs do terminal **
+
+#### WEBPACK
+
+> Esp√©cie de servi√ßo que nos disponibiliza uma forma de se utilizar v√°rias formas de arquivos (JS, JSON, ...) em nossa aplica√ß√£o (tudo ser√° arquivado em um √∫nico arquivo bundle.js).
+- yarn add webpack webpack-cli
