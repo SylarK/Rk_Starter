@@ -1,6 +1,6 @@
-## ES6+
+# ES6+
 
-##### HEAD
+### HEAD
 * Babel  -> Compilador para a nova geração do javascript.
 * Webpack
 * Classes
@@ -11,7 +11,7 @@
 * Async/await
 
 
-##### YARN
+### YARN
 - yarn init
 > Armazenamento das informações de dependência de minha aplicação
 - yarn add @babel/cli
@@ -31,15 +31,13 @@
 - yarn add axios
 
 
-##### BABEL
+### BABEL
 - .babelrc
 <<<<<<< HEAD
 > Criação de arquivo para configuração do babel
 
 
-**A criação de scripts dentro do package.json permitem a execução de funcionalidade através do terminal**
-
-##### WEBPACK
+### WEBPACK
 
 > Espécie de serviço que nos disponibiliza uma forma de se utilizar várias formas de arquivos (JS, JSON, ...) em nossa aplicação (tudo será arquivado em um único arquivo bundle.js).
 - yarn add webpack webpack-cli
