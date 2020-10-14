@@ -1,0 +1,2 @@
+npx create-react-app web --template typescript
+react-router-dom -> Lidar com rotas no react
